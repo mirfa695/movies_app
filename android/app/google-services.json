@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "606388587353",
+    "project_id": "streamflix-3b26f",
+    "storage_bucket": "streamflix-3b26f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606388587353:android:c4c5300a83cd3c9b961a48",
+        "android_client_info": {
+          "package_name": "com.example.movies_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606388587353-v7s43pf8udfr6kmmj21somnbv0r5luk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqXgbSIKYT1-6bO2JbPJA_dmD_EpTCdAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606388587353-v7s43pf8udfr6kmmj21somnbv0r5luk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

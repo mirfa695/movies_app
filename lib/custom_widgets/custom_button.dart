@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:movies_app/utilities/dimensions.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({required this.text,required this.icon,
@@ -17,10 +18,10 @@ class CustomButton extends StatelessWidget {
           child: Row(
             children: [
               Icon(icon,color: Colors.white,),
-              SizedBox(width: 10,),
+               SizedBox(width: Dimensions.customWidth(context, 18),),
               Text(
                 text,
-                style: const TextStyle(color: CupertinoColors.white, fontSize: 18),
+                style:  TextStyle(color: CupertinoColors.white, fontSize: Dimensions.customHeight(context, 41)),
               ),
             ],
           ),

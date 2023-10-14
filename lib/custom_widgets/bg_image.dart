@@ -7,9 +7,9 @@ class BgImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('assets/images/img_7.png'), fit: BoxFit.cover)),
+              image: AssetImage('assets/images/img_8.jpg'), fit: BoxFit.cover)),
       child: wd,
     );
   }

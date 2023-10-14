@@ -27,7 +27,7 @@ class CustomTextField extends StatelessWidget {
         obscureText: choice,
         decoration: InputDecoration(
             filled: true,
-            fillColor: Colors.white.withOpacity(.2),
+            fillColor: Colors.white.withOpacity(.3),
             enabledBorder: const OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(40)),
                 borderSide: BorderSide(color: Colors.black)),
@@ -35,7 +35,7 @@ class CustomTextField extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(40)),
                 borderSide: BorderSide(color: Colors.grey)),
             labelText: text,
-            labelStyle: TextStyle(color: Colors.black.withOpacity(.3))),
+            labelStyle: TextStyle(color: Colors.black.withOpacity(.5))),
       ),
     );
   }
